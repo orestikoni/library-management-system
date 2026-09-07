@@ -52,7 +52,7 @@ Replace `/path/to/javafx/lib` with the actual path to the JavaFX SDK lib directo
 
 ## Data files
 
-The repository includes several serialized data files (books.dat, users.ser, borrowedBooks.dat, etc.) that the application reads/writes to. If you delete these files the application will recreate them (empty) on first run, but existing data may be needed to see the example content.
+The repository includes several serialized data files (books.dat, users.ser, borrowedBooks.dat, etc.) that the application reads/writes to. If you delete these files the application will recreate default data or may start with an empty dataset.
 
 If you want to start fresh, remove or move the `.dat` / `.ser` files before starting the app.
 
@@ -65,6 +65,19 @@ If you want to start fresh, remove or move the `.dat` / `.ser` files before star
 
 Contributions are welcome. Open an issue or submit a pull request with clear description of changes.
 
+## Contributors
+
+- orestikoni
+
 ## License
 
-Specify a license by adding a LICENSE file. If you want a suggestion, consider MIT or Apache-2.0.
+This repository currently does not include a LICENSE file. Please add a LICENSE file to specify the project's license.
+
+Suggested licenses:
+
+- MIT — permissive, simple, and widely used.
+- Apache-2.0 — permissive and includes an explicit patent grant.
+
+If you want, I can add a LICENSE file for you (MIT or Apache-2.0) in a follow-up commit.
+
+Note: Parts of this README appear to be AI-generated; if you would like wording revised for clarity or originality I can help rewrite it.
